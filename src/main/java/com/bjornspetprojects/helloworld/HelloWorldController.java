@@ -9,4 +9,9 @@ public class HelloWorldController {
     public String index(){
         return "index";
     }
+
+    @RequestMapping({"/todos"})
+    public String todos(){
+        return "todos";
+    }
 }
